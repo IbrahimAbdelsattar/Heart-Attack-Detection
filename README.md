@@ -1,80 +1,102 @@
 <br/><br/>
 
 <!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Heart Attack Detection+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
-
-<br/>
+<p align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=E11D48&center=true&vCenter=true&width=820&lines=Heart+Attack+Risk+Prediction+%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9FA9%B9;MLP+Neural+Network+%C2%B7+CDC+Cardiovascular+Indicators;Clinical+Comorbidity+Profiling+%C2%B7+Lifestyle+Biomarkers;Real-Time+Diagnostic+Risk+Score+%C2%B7+Streamlit+Studio" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>Data Analysis Frameworks · Python 3.10+</i>
+  <b>Production Clinical Machine Learning System for Cardiovascular Event Likelihood Assessment</b><br/>
+  <i>Multi-Layer Perceptron (MLP) Neural Network · Multi-Factor Comorbidity Modeling · CDC Heart Disease Indicators · Interactive Streamlit Clinical Studio</i>
 </p>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Badges Row 1: Core Technologies -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Analysis%20Frameworks-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python%203.10+-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Neural_Network-Scikit--Learn_MLP-EE4C2C?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="MLP Neural Network" />
+  <img src="https://img.shields.io/badge/Interface-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Pandas-Data_Frames-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/DevContainer-VS_Code-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="DevContainer" />
+</p>
+
+<!-- Badges Row 2: Clinical Standards & License -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Data_Source-CDC_BRFSS_Surveillance-0284C7?style=for-the-badge" alt="CDC Indicators" />
+  <img src="https://img.shields.io/badge/Pipeline-End--to--End_Joblib_Bundle-7C3AED?style=for-the-badge" alt="Joblib Bundle" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
 <br/>
 
-<!-- Quick Links -->
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-E11D48?style=flat-square" alt="Overview" /></a>
   &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  <a href="#-problem-statement--clinical-solution"><img src="https://img.shields.io/badge/🎯-Problem%20%26%20Solution-2563EB?style=flat-square" alt="Problem" /></a>
   &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  <a href="#-clinical-feature-domains"><img src="https://img.shields.io/badge/🔥-Clinical%20Features-D97706?style=flat-square" alt="Features" /></a>
   &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square" alt="Architecture" /></a>
   &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+  <a href="#-machine-learning-pipeline"><img src="https://img.shields.io/badge/🔬-ML%20Pipeline-7C3AED?style=flat-square" alt="Pipeline" /></a>
+  &nbsp;
+  <a href="#-quickstart--execution"><img src="https://img.shields.io/badge/🚀-Quickstart-4F46E5?style=flat-square" alt="Quickstart" /></a>
 </p>
-
-<br/>
 
 ---
 
 ## 📌 Overview
 
-**Heart Attack Detection** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+**Heart Attack Detection** is a clinical decision-support machine learning system engineered to assess the probability of acute myocardial infarction (heart attack) based on comprehensive personal, behavioral, and clinical comorbidity indicators.
 
-> Designed for seamless integration, high scalability, and robust computational performance.
+Trained on the **CDC Behavioral Risk Factor Surveillance System (BRFSS)** epidemiological dataset, the system deploys a **Multi-Layer Perceptron (MLP) Neural Network** encapsulated within an end-to-end scikit-learn preprocessing pipeline (`mlp_model.pkl`). The accompanying **Streamlit Clinical Studio** enables primary care clinicians, occupational health officers, and individuals to simulate cardiovascular risk profiles across dozens of interdependent health variables.
+
+```
+                      ┌────────────────────────────────────────────────────────┐
+                      │             Cardiovascular Risk Engine                 │
+                      │                                                        │
+[ Patient Profile:   ]┼──> [ Pipeline Preprocessor & One-Hot Encoder ]         ├──> [ Diagnostic Risk Score ]
+[ Lifestyle & History]│             │                                          │    - Probability (%)
+                      │             ▼                                          │    - Binary Classification
+                      │    [ Multi-Layer Perceptron (MLP) ] ──> Risk Logits    │    - Stratified Risk Tier
+                      │             │                                          │    - Clinical Guidance
+                      │             ▼                                          │
+                      │    [ Calibrated Sigmoid Output ]    ──> Clinical Risk  │
+                      └────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🎯 Problem & Solution Architecture
+## 🎯 Problem Statement & Clinical Solution
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ❌ The Challenge
+### ❌ The Cardiovascular Disease Burden
 
-Traditional analytical approaches face critical operational limitations:
+Cardiovascular diseases remain the leading cause of mortality worldwide:
 
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
+- ⏳ **Asymptomatic Progression**: Atherosclerosis and hypertension develop quietly over decades without acute symptoms until a cardiac event occurs.
+- 🧩 **Multi-Factorial Complexity**: Risk is not determined by a single biomarker but by the compounding synergy of smoking, diabetes, age, BMI, and prior stroke/angina.
+- 📋 **Fragmented Screening**: Routine health screenings often lack accessible predictive tools that synthesize lifestyle data into actionable risk metrics.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ✅ Our Solution
+### ✅ The Machine Learning Solution
 
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
+| Challenge | Architectural Solution |
+| :--- | :--- |
+| **Synergistic Risk Modeling** | **MLP Neural Network**: Deep interconnected hidden layers capture non-linear interactions across diverse clinical factors. |
+| **Comprehensive Feature Scope** | Encodes **Demographics**, **Lifestyle Factors**, **Chronic Comorbidities**, and **Physical Health Metrics**. |
+| **Serialized Pipeline Bundle** | **Self-Contained Joblib Pipeline** (`mlp_model.pkl`) managing one-hot encoding, imputation, and inference in one call. |
+| **Interactive Clinical Studio** | **Streamlit** multi-column dashboard with specialized clinical categories and instant probabilistic assessment. |
 
 </td>
 </tr>
@@ -82,137 +104,168 @@ Traditional analytical approaches face critical operational limitations:
 
 ---
 
-## 🔥 Core Features
+## 🔥 Clinical Feature Domains
 
 <table>
 <tr>
+<td width="33%" align="center" valign="top">
 
-<td align="center" width="33%">
+### 👤 Lifestyle & Demographics
 <br/>
-<b>⚡ High Performance Architecture</b><br/><br/>
-Modular Code Structure<br/>
-Scalable Design Patterns<br/>
-Robust Error Handling<br/>
-Clean Interface Abstractions<br/><br/>
+<b>Behavioral Factors</b>
+<p align="left">
+• Age bracket & biological sex<br/>
+• Smoker status & E-cigarette usage<br/>
+• Alcohol consumption habits<br/>
+• Physical activity frequency<br/>
+• Sleep duration & mental health days
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 🏥 Comorbidities
 <br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
+<b>Medical History</b>
+<p align="left">
+• Prior Angina / CAD diagnosis<br/>
+• History of Stroke<br/>
+• Chronic Kidney Disease<br/>
+• Diabetes mellitus diagnosis<br/>
+• Asthma, COPD & Arthritis
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 📊 Vital Biomarkers
 <br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
+<b>Physical Health</b>
+<p align="left">
+• Body Mass Index (BMI)<br/>
+• Height and weight ratios<br/>
+• Mobility & concentration difficulties<br/>
+• Annual checkup recency<br/>
+• General health self-rating
+</p>
+
 </td>
 </tr>
 </table>
 
 ---
 
-## 🏗️ System Architecture & Data Flow
-
-<br/>
+## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
+graph TD
+    subgraph ViewLayer["User Interface (Streamlit Clinical Dashboard)"]
+        UI["Clinical Form (app0.py)"]
+        LifestyleCol["Personal & Lifestyle Information"]
+        MedicalCol["Medical History & Comorbidities"]
+        DisabilityCol["Mobility & Daily Life Factors"]
+        VitalsCol["Health Measurements & BMI"]
+    end
+
+    subgraph PipelineCore["Inference Pipeline (mlp_model.pkl)"]
+        DataframeAssembler["Pandas DataFrame Assembler"]
+        Preprocessor["ColumnTransformer & One-Hot Categorical Encoder"]
+        MLP["Multi-Layer Perceptron Neural Network (MLPClassifier)"]
+    end
+
+    subgraph ClinicalOutput["Diagnostic Assessment"]
+        RiskScore["Heart Attack Probability (%)"]
+        AlertStatus["Stratified Risk Category Alert"]
+    end
+
+    LifestyleCol --> DataframeAssembler
+    MedicalCol --> DataframeAssembler
+    DisabilityCol --> DataframeAssembler
+    VitalsCol --> DataframeAssembler
+    
+    DataframeAssembler --> Preprocessor
+    Preprocessor --> MLP
+    MLP --> RiskScore
+    RiskScore --> AlertStatus
 ```
 
 ---
 
 ## ⚙️ Technical Stack
 
-<div align="center">
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Data Analysis Frameworks** | Core Framework / Library | Primary computing and analytical engine |
-| **Python 3.10+** | Core Framework / Library | Primary computing and analytical engine |
-
-</div>
+| Component | Technology | Purpose & Implementation |
+| :--- | :--- | :--- |
+| **Neural Network** | **Scikit-Learn MLPClassifier** | Multi-layer perceptron with backpropagation and non-linear activations |
+| **Preprocessing Pipeline** | **Scikit-Learn Pipeline** | Unified categorical encoding and feature alignment |
+| **Interactive Interface** | **Streamlit** | Multi-column clinical risk prediction dashboard |
+| **Data Structures** | **Pandas & NumPy** | Vectorized patient record assembly and feature extraction |
+| **Model Serialization** | **Joblib** | Serialized model and pipeline bundle (`mlp_model.pkl`) |
+| **Dataset Source** | **CDC BRFSS** | CDC Heart Disease Indicators epidemiological dataset |
 
 ---
 
-
-
-## 📁 Directory Structure
-
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
+## 📁 Repository Structure
 
 ```
 Heart-Attack-Detection/
-│   ├── devcontainer.json
-├── README.md
-├── Requirements.txt
-├── app0.py
-├── diabetes-eda-and-detection (1).ipynb
-├── diabetes_prediction_dataset (1).csv
-├── mlp_model.pkl
+├── 📄 app0.py                          # Interactive Streamlit clinical risk prediction application
+├── 📄 diabetes-eda-and-detection (1).ipynb # Comprehensive EDA, feature selection & training notebook
+├── 📄 mlp_model.pkl                    # Serialized MLP neural network pipeline bundle
+├── 📊 diabetes_prediction_dataset (1).csv # Training and evaluation dataset
+├── 📄 Requirements.txt                 # Dependencies
+├── 📁 .devcontainer/                   # Development container configuration
+└── 📄 README.md                        # Documentation
 ```
-
-</details>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Execution
 
 ### Prerequisites
+- **Python**: 3.10 or higher
+- **Virtual Environment**: Recommended
 
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
+---
 
-### Installation & Execution
+### 1. Installation
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/IbrahimAbdelsattar/Heart-Attack-Detection.git
 cd Heart-Attack-Detection
 
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows: .\venv\Scripts\activate
 
 # 3. Install dependencies
-# Install dependencies listed in codebase
-
-# 4. Launch project execution
-jupyter notebook
+pip install -r Requirements.txt
+pip install streamlit scikit-learn pandas numpy joblib
 ```
 
 ---
 
-## 👤 Author & Contact
+### 2. Launching the Clinical Dashboard
 
-<div align="center">
+```bash
+streamlit run app0.py
+```
+
+*The application will boot at `http://localhost:8501`.*
+
+---
+
+## 👥 Author & Connect
 
 **Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+*AI Engineer & Machine Learning Specialist*
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+- 🌐 **GitHub**: [@IbrahimAbdelsattar](https://github.com/IbrahimAbdelsattar)
+- 💼 **LinkedIn**: [Ibrahim Abdelsattar](https://www.linkedin.com/in/ibrahim-abdelsattar/)
+- 📧 **Email**: [ibrahimabdelsattar042@gmail.com](mailto:ibrahimabdelsattar042@gmail.com)
 
-<br/>
+---
 
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+<p align="center">
+  <sub>Engineered for clinical intelligence, preventive medicine, and cardiovascular health analytics. © 2026 Heart Attack Detection.</sub>
+</p>
