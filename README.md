@@ -26,6 +26,27 @@ The notebook's target is diabetes, while `app0.py` presents a heart attack class
 
 The application is an educational demonstration, not a clinically validated diagnosis or risk forecast. Keep the saved pipeline compatible with its original scikit-learn environment.
 
+## UML diagrams
+
+### Main workflow
+
+This is the app0.py inference path. The separate diabetes notebook and dataset are not established as training sources for this heart-risk model.
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant App as Streamlit app0.py
+    participant Input as Questionnaire feature row
+    participant Model as mlp_model.pkl
+    User->>App: Complete health questionnaire
+    App->>Input: Encode answers in expected order
+    Input-->>App: Model input
+    App->>Model: predict
+    Model-->>App: Predicted class
+    App-->>User: Display model interpretation
+    Note over Input,Model: Training lineage is not established by the diabetes notebook
+```
+
 ## Getting started
 
 ```bash
